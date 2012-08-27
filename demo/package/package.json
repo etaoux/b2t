@@ -1,11 +1,7 @@
 {
-  "name": "demo",
+  "name": "b2t_demo",
   "version": "0.0.0",
-  "description": "ERROR: No README.md file found!",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": "",
   "author": "",
   "license": "BSD"

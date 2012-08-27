@@ -1,5 +1,6 @@
 {
-	"page": {
+	"name": "首页~",
+	"layout" : {
 		"struct" : [
 			["sidebar", "20 30_960", "content", "12 14_960"]
 		],

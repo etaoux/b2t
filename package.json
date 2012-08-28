@@ -4,5 +4,13 @@
   "main": "index.js",
   "repository": "",
   "author": "",
-  "license": "BSD"
+  "license": "BSD",
+  "bin": {
+    "b2t" : "bin/b2t"
+  },
+  "dependencies": {
+    "commander": "*",
+	"pkginfo" : "*",
+	"nconf" : "*"
+  }
 }

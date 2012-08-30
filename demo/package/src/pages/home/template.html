@@ -1,29 +1,43 @@
+<!DOCTYPE html>
 <html>
-	<head>
-	</head>
-	<body>
-		<div id="wrapper">
-			<div class="row">
-				<div id="header" bx-name="header">
-				</div>
-			</div>
-			<div class="row">
-				<div id="sidebar">
-					<div bx-name="sidebar">
-					</div>
-					<div bx-name="sidebar2">
-					</div>
-					<div bx-name="b2t_other_sidebar">
-					</div>
-				</div>
-				<div id="content">
-				</div>
-			</div>
-			<div class="row">
-				<div id="footer" bx-name="footer">
-				</div>
-			</div>
-		</div>
-	</body>
+    <head>
+        <title>b2tDemo</title>
+        <meta charset="UTF-8" />
+        <link href="http://etaoux.github.com/brix/dist/brix-min.css" rel="stylesheet" type="text/css" >
+        <script src="http://a.tbcdn.cn/s/kissy/1.2.0/kissy.js?t=111229.js"></script>
+        <script src="https://raw.github.com/etaoux/brix/master/dist/brix-min.js"></script>
+        <style>#r-content{ margin: 0 auto; width:1200px; }.row{margin-left: -10px}.w1200{width: 1200px}.span0{display: none}.span1{width: 10px;margin-left: 10px}.span2{width: 30px;margin-left: 10px}.span3{width: 50px;margin-left: 10px}.span4{width: 70px;margin-left: 10px}.span5{width: 90px;margin-left: 10px}.span6{width: 110px;margin-left: 10px}.span7{width: 130px;margin-left: 10px}.span8{width: 150px;margin-left: 10px}.span9{width: 170px;margin-left: 10px}.span10{width: 190px;margin-left: 10px}.span11{width: 210px;margin-left: 10px}.span12{width: 230px;margin-left: 10px}.span13{width: 250px;margin-left: 10px}.span14{width: 270px;margin-left: 10px}.span15{width: 290px;margin-left: 10px}.span16{width: 310px;margin-left: 10px}.span17{width: 330px;margin-left: 10px}.span18{width: 350px;margin-left: 10px}.span19{width: 370px;margin-left: 10px}.span20{width: 390px;margin-left: 10px}.span21{width: 410px;margin-left: 10px}.span22{width: 430px;margin-left: 10px}.span23{width: 450px;margin-left: 10px}.span24{width: 470px;margin-left: 10px}.span25{width: 490px;margin-left: 10px}.span26{width: 510px;margin-left: 10px}.span27{width: 530px;margin-left: 10px}.span28{width: 550px;margin-left: 10px}.span29{width: 570px;margin-left: 10px}.span30{width: 590px;margin-left: 10px}.span31{width: 610px;margin-left: 10px}.span32{width: 630px;margin-left: 10px}.span33{width: 650px;margin-left: 10px}.span34{width: 670px;margin-left: 10px}.span35{width: 690px;margin-left: 10px}.span36{width: 710px;margin-left: 10px}.span37{width: 730px;margin-left: 10px}.span38{width: 750px;margin-left: 10px}.span39{width: 770px;margin-left: 10px}.span40{width: 790px;margin-left: 10px}.span41{width: 810px;margin-left: 10px}.span42{width: 830px;margin-left: 10px}.span43{width: 850px;margin-left: 10px}.span44{width: 870px;margin-left: 10px}.span45{width: 890px;margin-left: 10px}.span46{width: 910px;margin-left: 10px}.span47{width: 930px;margin-left: 10px}.span48{width: 950px;margin-left: 10px}.span49{width: 970px;margin-left: 10px}.span50{width: 990px;margin-left: 10px}.span51{width: 1010px;margin-left: 10px}.span52{width: 1030px;margin-left: 10px}.span53{width: 1050px;margin-left: 10px}.span54{width: 1070px;margin-left: 10px}.span55{width: 1090px;margin-left: 10px}.span56{width: 1110px;margin-left: 10px}.span57{width: 1130px;margin-left: 10px}.span58{width: 1150px;margin-left: 10px}.span59{width: 1170px;margin-left: 10px}.span60{width: 1190px;margin-left: 10px}.span61{width: 1210px;margin-left: 10px}.span62{width: 1230px;margin-left: 10px}.span63{width: 1250px;margin-left: 10px}.span64{width: 1270px;margin-left: 10px}.span65{width: 1290px;margin-left: 10px}.span66{width: 1310px;margin-left: 10px}.span67{width: 1330px;margin-left: 10px}.span68{width: 1350px;margin-left: 10px}.span69{width: 1370px;margin-left: 10px}.span70{width: 1390px;margin-left: 10px}.span71{width: 1410px;margin-left: 10px}.span72{width: 1430px;margin-left: 10px}.span73{width: 1450px;margin-left: 10px}.span74{width: 1470px;margin-left: 10px}.span75{width: 1490px;margin-left: 10px}.span76{width: 1510px;margin-left: 10px}.span77{width: 1530px;margin-left: 10px}.span78{width: 1550px;margin-left: 10px}.span79{width: 1570px;margin-left: 10px}.span80{width: 1590px;margin-left: 10px}.span81{width: 1610px;margin-left: 10px}.span82{width: 1630px;margin-left: 10px}.span83{width: 1650px;margin-left: 10px}.span84{width: 1670px;margin-left: 10px}.span85{width: 1690px;margin-left: 10px}.span86{width: 1710px;margin-left: 10px}.span87{width: 1730px;margin-left: 10px}.span88{width: 1750px;margin-left: 10px}.span89{width: 1770px;margin-left: 10px}.span90{width: 1790px;margin-left: 10px}.span91{width: 1810px;margin-left: 10px}.span92{width: 1830px;margin-left: 10px}.span93{width: 1850px;margin-left: 10px}.span94{width: 1870px;margin-left: 10px}.span95{width: 1890px;margin-left: 10px}.span96{width: 1910px;margin-left: 10px}@media (max-width: 1280px) {#r-content{width: 990px}.span0_990{display: none}.span1_990{width: 10px;margin-left: 10px}.span2_990{width: 30px;margin-left: 10px}.span3_990{width: 50px;margin-left: 10px}.span4_990{width: 70px;margin-left: 10px}.span5_990{width: 90px;margin-left: 10px}.span6_990{width: 110px;margin-left: 10px}.span7_990{width: 130px;margin-left: 10px}.span8_990{width: 150px;margin-left: 10px}.span9_990{width: 170px;margin-left: 10px}.span10_990{width: 190px;margin-left: 10px}.span11_990{width: 210px;margin-left: 10px}.span12_990{width: 230px;margin-left: 10px}.span13_990{width: 250px;margin-left: 10px}.span14_990{width: 270px;margin-left: 10px}.span15_990{width: 290px;margin-left: 10px}.span16_990{width: 310px;margin-left: 10px}.span17_990{width: 330px;margin-left: 10px}.span18_990{width: 350px;margin-left: 10px}.span19_990{width: 370px;margin-left: 10px}.span20_990{width: 390px;margin-left: 10px}.span21_990{width: 410px;margin-left: 10px}.span22_990{width: 430px;margin-left: 10px}.span23_990{width: 450px;margin-left: 10px}.span24_990{width: 470px;margin-left: 10px}.span25_990{width: 490px;margin-left: 10px}.span26_990{width: 510px;margin-left: 10px}.span27_990{width: 530px;margin-left: 10px}.span28_990{width: 550px;margin-left: 10px}.span29_990{width: 570px;margin-left: 10px}.span30_990{width: 590px;margin-left: 10px}.span31_990{width: 610px;margin-left: 10px}.span32_990{width: 630px;margin-left: 10px}.span33_990{width: 650px;margin-left: 10px}.span34_990{width: 670px;margin-left: 10px}.span35_990{width: 690px;margin-left: 10px}.span36_990{width: 710px;margin-left: 10px}.span37_990{width: 730px;margin-left: 10px}.span38_990{width: 750px;margin-left: 10px}.span39_990{width: 770px;margin-left: 10px}.span40_990{width: 790px;margin-left: 10px}.span41_990{width: 810px;margin-left: 10px}.span42_990{width: 830px;margin-left: 10px}.span43_990{width: 850px;margin-left: 10px}.span44_990{width: 870px;margin-left: 10px}.span45_990{width: 890px;margin-left: 10px}.span46_990{width: 910px;margin-left: 10px}.span47_990{width: 930px;margin-left: 10px}.span48_990{width: 950px;margin-left: 10px}.span49_990{width: 970px;margin-left: 10px}.span50_990{width: 990px;margin-left: 10px}}</style>
 
+        <link rel="stylesheet" href="http://loc.etao.com/b2t/demo/package/src/pages/home/custom.css" type="text/css">
+
+    </head>
+    <body>
+
+        <div id="r-content">
+            <div class="row">
+                <div class="span60 span50_990"> 
+                    <div bx-name="TMS_Header" bx-path="node_modules/header/TMS_Header"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="span13 span13_1200">
+                    <div bx-name="SalesList" bx-path="node_modules/saleslist/SalesList"></div>
+                </div>
+                <div class="span37">
+                     <div bx-name="CatBanner" bx-path="node_modules/catbanner/CatBanner"></div>
+                </div>
+                <div class="span10 span0_990">
+                     <div bx-name="SideBanner" bx-path="node_modules/sidebanner/SideBanner"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="span60 span50_990"> 
+                    <div bx-name="TMS_Footer" bx-path="node_modules/footer/TMS_Footer"></div>
+                </div>
+            </div>
+        </div>
+
+    </body>
 </html>

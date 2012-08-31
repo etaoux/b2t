@@ -19,16 +19,15 @@ describe('component skin', function() {
 	Component.load(componentRoot, function(err, component) {
 		it('skin', function(done) {
 			component.getSkin('default', function(err, skin) {
-				assert.equal(skin.sizes, 1);
+				assert.equal(skin.sizes.length, 3);
 				done();
 			});
 		});
 		it('toCSS', function(done) {
 			component.getSkin('default', function(err, skin) {
 				skin.toCSS(function(err, css) {
-					console.log(css);
+					done();
 				});
-				done();
 			});
 		});
 	});

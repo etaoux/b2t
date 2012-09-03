@@ -11,6 +11,10 @@
   "dependencies": {
     "commander": "*",
 	"pkginfo" : "*",
-	"nconf" : "*"
+	"nconf" : "*",
+	"async" : "*",
+	"jsdom" : "*",
+	"mustache" : "*",
+	"less" : "*"
   }
 }

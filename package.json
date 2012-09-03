@@ -16,5 +16,8 @@
 	"jsdom" : "*",
 	"mustache" : "*",
 	"less" : "*"
+  },
+  "devDependencies": {
+	  "mocha": "*"
   }
 }

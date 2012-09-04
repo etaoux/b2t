@@ -1,0 +1,8 @@
+.sales {
+    position: relative;
+    margin:0 auto;
+    margin-bottom: 40px;
+    z-index: 21;
+    min-width:990px;
+    max-width:1200px;
+}

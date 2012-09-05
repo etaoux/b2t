@@ -2,7 +2,7 @@ var assert = require('assert');
 var path = require('path');
 var Component = require('../lib/b2t/Component');
 
-var componentRoot = path.join(__dirname, '../demo/package/node_modules/header');
+var componentRoot = path.join(__dirname, '../demo/project/node_modules/header');
 
 describe('component base', function() {
 	it('members', function(done) {

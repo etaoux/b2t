@@ -2,7 +2,7 @@ var assert = require('assert');
 var Project = require('../lib/b2t/Project');
 var path = require('path');
 
-var projectRoot = path.join(__dirname, '../demo/package');
+var projectRoot = path.join(__dirname, '../demo/project');
 
 describe('project base', function() {
 	it('members', function(done) {

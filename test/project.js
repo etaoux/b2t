@@ -23,12 +23,9 @@ describe('project page', function() {
 		});
 	});
 	it('template', function(done) {
-		// jsdom not installed
-		done();
-		return;
 		project.getPage('home', function(err, page) {
 			page.getTemplate(function(err, template) {
-				console.log(template);
+				assert.ok(template);
 				done();
 			})
 		});

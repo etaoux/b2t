@@ -14,6 +14,11 @@ describe('project base', function() {
 	});
 });
 
+describe('project components', function() {
+	it('components', function() {
+	});
+});
+
 describe('project page', function() {
 	var project = Project.load(projectRoot);
 	it('base', function(done) {
@@ -28,6 +33,12 @@ describe('project page', function() {
 				assert.ok(template);
 				done();
 			})
+		});
+	});
+	it('build', function(done) {
+		project.getPage('home', function(err, page) {
+			// TODO
+			done();
 		});
 	});
 });

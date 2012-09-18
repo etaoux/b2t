@@ -1,0 +1,36 @@
+project
+├── components
+│   ├── header
+│   │   ├── common-layout.html
+│   │   ├── component.json
+│   │   ├── package.json
+│   │   ├── src
+│   │   │   ├── default-data.json
+│   │   │   ├── extensions
+│   │   │   │   ├── index.coffee
+│   │   │   │   ├── skins
+│   │   │   │   │   └── default
+│   │   │   │   │       └── w600.less
+│   │   │   │   └── template.mustache
+│   │   │   ├── index.coffee
+│   │   │   ├── skins
+│   │   │   │   ├── blue
+│   │   │   │   │   ├── index.less
+│   │   │   │   │   └── w900.less
+│   │   │   │   └── default
+│   │   │   │       ├── h200.less
+│   │   │   │       ├── index.less
+│   │   │   │       ├── w640h100.less
+│   │   │   │       └── w900.less
+│   │   │   └── template.mustache
+├── node_modules
+│   └── bx_tab
+├── package.json
+├── project.json
+└── src
+    └── pages
+        └── home
+            ├── dymantic-final.html
+            ├── layout.html
+            ├── page.json
+            ├── template.html
